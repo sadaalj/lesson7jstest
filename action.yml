@@ -1,6 +1,6 @@
 name: jsAction
 
-discrption: A JavaScript action that runs a simple console log to calculate
+descrption: calculate to test javascript action
 
 inputs:
   number1:
@@ -11,7 +11,7 @@ inputs:
     default: 0
 outputs:
   result:
-   description: 'The result of the calculation'
+   description: 'output of the sum of the 2 numbers'
 runs:
  using: 'node20'
  main: 'dist/index.js'
