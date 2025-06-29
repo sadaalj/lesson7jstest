@@ -6,7 +6,7 @@ inputs:
   number1:
     required: true
     default: 0
-  numher2:
+  number2:
     required: true
     default: 0
 outputs:
