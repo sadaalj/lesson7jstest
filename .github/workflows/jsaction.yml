@@ -9,9 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./
-        id: js-action
+        id: jsAction
         with:
           number1: 5
           number2: 2
-      - run: echo ${{ steps.js-action.outputs.result }}
+      - run: echo ${{ steps.jsAction.outputs.result }}
   
