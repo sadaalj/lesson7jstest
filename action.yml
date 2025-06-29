@@ -11,8 +11,7 @@ inputs:
     default: 0
 outputs:
   result:
-  description: The result of the calculation
-  value: ${{ steps.calculate.outputs.result }}
+  description: 'The result of the calculation'
 runs:
  using: 'node20'
  main: 'dist/index.js'
