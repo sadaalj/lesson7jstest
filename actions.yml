@@ -1,0 +1,18 @@
+name: jsAction
+
+discrption: A JavaScript action that runs a simple console log to calculate
+
+inputs:
+  number1
+    required: true
+    default: 0
+  numher2
+    required: true
+    default: 0
+outputs:
+  result:
+  discription: The result of the calculation
+    value: ${{ steps.calculate.outputs.result }}
+runs:
+ usinge: 'node20'
+ main: 'dist/index.js'
